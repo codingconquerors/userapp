@@ -99,7 +99,6 @@ task generateOpenApiCode(type: org.openapitools.generator.gradle.plugin.tasks.Ge
     generatorName = "spring"
     inputSpec = "$rootDir/src/main/resources/public/swagger/userapp-swagger.yaml".toString()
     outputDir = "$rootDir/target/generated".toString()
-    //invokerPackage = basePackage
     apiPackage = basePackage + ".controller"
     modelPackage = basePackage + ".model"
     configOptions = [
