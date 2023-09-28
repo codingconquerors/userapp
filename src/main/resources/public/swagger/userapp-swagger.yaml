@@ -228,8 +228,7 @@ components:
       type: object
       properties:
         id:
-          type: integer
-          format: int64
+          type: String
           example: 10
         username:
           type: string
