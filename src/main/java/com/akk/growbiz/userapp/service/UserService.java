@@ -24,4 +24,10 @@ public class UserService {
         return userMapper.toUser(userRepo.save(userEntity));
 
     }
+
+    public User getUser(String userName) {
+
+        return userMapper.toUser(userRepo.findUserByUserName(userName));
+
+    }
 }

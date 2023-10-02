@@ -19,7 +19,7 @@ public class UserEntity {
     @Id
     private String id;
 
-    private String username;
+    private String userName;
 
     private String firstName;
 

@@ -230,7 +230,7 @@ components:
         id:
           type: String
           example: 10
-        username:
+        userName:
           type: string
           example: theUser
         firstName:
